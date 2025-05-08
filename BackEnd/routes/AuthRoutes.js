@@ -9,4 +9,10 @@ routes.post('/login',Login);
 
 routes.post('/logout',Logout);
 
+routes.get('/signup',SignUp);
+
+routes.get('/login',Login);
+
+routes.get('/logout',Logout);
+
 export default routes;
